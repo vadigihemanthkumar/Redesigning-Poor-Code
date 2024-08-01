@@ -26,7 +26,7 @@ The project consists of the following main components:
    ```
 3. Navigate to the project directory:
    ```
-   cd "Redesigning Poor Code"
+   cd Redesigning-Poor-Code/"Redesigning Poor Code"
    ```
 
 ## Usage
