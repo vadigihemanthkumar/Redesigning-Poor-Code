@@ -20,11 +20,12 @@ The project consists of the following main components:
 
 ## Installation
 1. Ensure you have Python 3.x installed on your system.
-2. Clone the repository:
+2. Open Terminal (Command Prompt) and follow these below instructions:
+3. Clone the repository:
    ```
    git clone https://github.com/vadigihemanthkumar/Redesigning-Poor-Code.git
    ```
-3. Navigate to the project directory:
+4. Navigate to the project directory:
    ```
    cd Redesigning-Poor-Code/"Redesigning Poor Code"
    ```
