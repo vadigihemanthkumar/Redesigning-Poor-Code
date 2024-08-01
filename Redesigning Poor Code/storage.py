@@ -1,4 +1,5 @@
 import json
+import os
 
 class Storage:
     @staticmethod
@@ -8,19 +9,17 @@ class Storage:
 
     @staticmethod
     def load_from_file(filename):
+        if not os.path.isfile(filename):
+            print(f"Error: File '{filename}' not found.")
+            return []
         try:
             with open(filename, 'r') as file:
-                content = file.read()
-                if not content.strip():  # Check for empty file
-                    raise ValueError(f"{filename} is empty.")
-                return json.loads(content)
-        except FileNotFoundError:
-            print(f"File {filename} not found.")
-            return []
+                return json.load(file)
         except json.JSONDecodeError as e:
-            print(f"Error decoding JSON from {filename}: {e}")
+            print(f"Error decoding JSON from file '{filename}': {e}")
             return []
-        except ValueError as e:
-            print(e)
+        except Exception as e:
+            print(f"Unexpected error: {e}")
             return []
+
 
