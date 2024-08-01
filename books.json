@@ -1,8 +1,11 @@
 [
     {
-        "title": "hcv",
-        "author": "hcv",
-        "isbn": "2029",
-        "is_checked_out": false
+        "title": "Book Title",
+        "author": "Book Author",
+        "isbn": "123456789",
+        "is_checked_out": false,
+        "added_date": "2024-08-01 12:00:00",
+        "checkout_date": null,
+        "checkin_date": null
     }
 ]
