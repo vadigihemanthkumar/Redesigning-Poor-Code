@@ -105,3 +105,17 @@ Key methods:
 - `load_books()`: Loads book data from a JSON file.
 - `save_users(users)`: Saves the user data to a JSON file.
 - `load_users()`: Loads user data from a JSON file.
+
+## Learning Outcomes
+
+Working on this project helped me grow my skills in software development. Here are the main things I learned:
+
+- **Object-Oriented Programming**: I used OOP to build parts of the code that can be reused and are easy to manage.
+- **Data Management**: I used JSON files to save and load data, making it simple to keep track of information.
+- **Command-Line Interface Development**: I made a CLI that is easy to use, allowing users to interact with the library system smoothly.
+- **Error Handling**: I added error handling to make the system more reliable and improve the user experience.
+- **Modular Architecture**: I organized the project into different parts, making it easier to add new features in the future.
+
+## Conclusion
+
+This Library Management System project demonstrates my skills in Python and my ability to solve real-world problems by creating a functional and user-friendly application.
