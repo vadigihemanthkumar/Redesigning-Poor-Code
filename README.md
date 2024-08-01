@@ -92,9 +92,3 @@ Key methods:
 - `load_books()`: Loads book data from a JSON file.
 - `save_users(users)`: Saves the user data to a JSON file.
 - `load_users()`: Loads user data from a JSON file.
-
-## Future Enhancements
-- Implement due dates for books and late fee calculation
-- Add support for different types of library items (e.g., magazines, DVDs)
-- Integrate with a database for more efficient data management
-- Develop a graphical user interface (GUI) for easier interaction
