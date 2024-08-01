@@ -107,6 +107,10 @@ Key methods:
 - `save_users(users)`: Saves the user data to a JSON file.
 - `load_users()`: Loads user data from a JSON file.
 
+## Future Enhancements
+-  The application is designed to be modular and scalable.
+-  It also allows for future expansions, such as managing new types of items or adding additional features like due dates for books, late fees, and more.
+
 ## Learning Outcomes
 
 Working on this project helped me grow my skills in software development. Here are the main things I learned:
