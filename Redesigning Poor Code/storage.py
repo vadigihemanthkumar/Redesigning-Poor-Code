@@ -16,8 +16,3 @@ class Storage:
         except FileNotFoundError:
             # If the file doesn't exist, return an empty list
             return []
-
-
-
-
-
