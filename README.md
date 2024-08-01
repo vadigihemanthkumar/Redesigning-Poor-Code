@@ -55,6 +55,31 @@ The application is designed to be modular, with clear separation of concerns bet
 
 ## Class Descriptions
 
+### Main Application (`main.py`)
+The `main.py` file serves as the entry point of the application, facilitating user interaction via a command-line interface (CLI).
+
+Key functionalities:
+- Displays a menu for users to choose operations.
+- Handles user input and executes corresponding library operations.
+- Provides feedback to users after each operation.
+- Maintains a loop to continuously allow operations until the user decides to exit.
+
+### Library Class (`models.py`)
+The central class managing all library operations.
+
+Key methods:
+- `add_book(book)`: Adds a new book to the library.
+- `update_book(isbn, title, author)`: Updates book information.
+- `delete_book(isbn)`: Removes a book from the library.
+- `search_book(isbn)`: Finds a book by ISBN.
+- `add_user(user)`: Adds a new user to the library.
+- `delete_user(user_id)`: Removes a user from the library.
+- `check_out_book(isbn, user_id)`: Checks out a book to a user.
+- `check_in_book(isbn, user_id)`: Returns a book to the library.
+- `list_books()`: Lists all books in the library.
+- `list_users()`: Lists all users in the library.
+- `list_checkouts()`: Lists all checked-out books.
+
 ### Library Class (`library.py`)
 The central class managing all library operations.
 
