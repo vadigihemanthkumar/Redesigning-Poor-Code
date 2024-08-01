@@ -1,11 +1,11 @@
 # Library Management System
 
-## Overview
-This Library Management System is a Python-based application designed to efficiently manage books, users, and library operations. It demonstrates the use of object-oriented programming principles to create a modular and extensible system.
+## Project Overview
+This Library Management System is a Python-based application designed to efficiently manage books, users, and library operations. It demonstrates the use of object-oriented programming principles to create a modular and extensible system for library management.
 
 ## Features
-- Manage books (add, update, delete, list, and search)
-- Manage users (add, update, delete, list, and search)
+- Manage books (add, update, delete, list, and search by various attributes like title, author, or ISBN)
+- Manage users (add, update, delete, list, and search by attributes like name, user ID)
 - Check out and check-in books
 - Track book availability
 - Simple logging of operations
@@ -19,22 +19,22 @@ The project consists of the following main components:
 - `storage.py`: Handles data persistence using JSON files.
 
 ## Installation
-1. Clone the repository:
+1. Ensure you have Python 3.x installed on your system.
+2. Clone the repository:
    ```
    git clone https://github.com/vadigihemanthkumar/Redesigning-Poor-Code.git
    ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```
    cd Redesigning-Poor-Code
    ```
-3. Ensure you have Python 3.x installed on your system.
 
 ## Usage
 Run the application by executing the `main.py` file:
 ```
 python main.py
 ```
-Follow the on-screen prompts to interact with the Library Management System.
+Follow the on-screen prompts to interact with the Library Management System. You can perform operations such as adding books, registering users, checking out books, and more.
 
 ## Design Decisions and Architecture
 
@@ -48,7 +48,7 @@ JSON file storage is used for data persistence, allowing for easy reading and wr
 A command-line interface (CLI) is implemented for user interaction, providing a simple and intuitive way to access the system's functionalities.
 
 ### Error Handling
-Comprehensive error handling and input validation are implemented throughout the application to ensure robustness and user-friendly operation.
+The application includes error handling to manage common issues such as invalid inputs or file operations, ensuring a smooth user experience.
 
 ### Modularity and Scalability
 The application is designed to be modular, with clear separation of concerns between different components. This architecture facilitates future expansions and modifications.
