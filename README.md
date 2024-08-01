@@ -98,9 +98,3 @@ Key methods:
 - Add support for different types of library items (e.g., magazines, DVDs)
 - Integrate with a database for more efficient data management
 - Develop a graphical user interface (GUI) for easier interaction
-
-## Contributing
-Contributions to improve the Library Management System are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests.
-
-## License
-This project is open-source and available under the MIT License.
