@@ -1,11 +1,12 @@
 [
     {
-        "title": "Book Title",
-        "author": "Book Author",
-        "isbn": "123456789",
+        "title": "Sample Book",
+        "author": "Sample Author",
+        "isbn": "0000000000",
         "is_checked_out": false,
-        "added_date": "2024-08-01 12:00:00",
+        "added_date": "2024-08-01 00:00:00",
         "checkout_date": null,
         "checkin_date": null
     }
 ]
+
