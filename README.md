@@ -80,18 +80,6 @@ Key methods:
 - `list_users()`: Lists all users in the library.
 - `list_checkouts()`: Lists all checked-out books.
 
-### Library Class (`library.py`)
-The central class managing all library operations.
-
-Key methods:
-- `add_book(book)`: Adds a new book to the library.
-- `update_book(isbn, title, author)`: Updates book information.
-- `delete_book(isbn)`: Removes a book from the library.
-- `search_book(isbn)`: Finds a book by ISBN.
-- `add_user(user)`: Adds a new user to the library.
-- `check_out_book(isbn, user_id)`: Checks out a book to a user.
-- `check_in_book(isbn, user_id)`: Returns a book to the library.
-
 ### Book Class (`book.py`)
 Represents a book in the library.
 
