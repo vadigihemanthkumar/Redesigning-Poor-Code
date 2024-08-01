@@ -1,12 +1,12 @@
 from datetime import datetime
 
 class User:
-    def __init__(self, name, user_id):
+    def __init__(self, name, user_id, added_date=None):
         # Set up the basic information for a user
         self.name = name
         self.user_id = user_id
         # Record the date and time when the user was added
-        self.added_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.added_date = added_date if added_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     def __str__(self):
         # Create a string representation of the user
@@ -16,4 +16,5 @@ class User:
         # Update the user's name if a new value is provided
         if name:
             self.name = name
+
 
