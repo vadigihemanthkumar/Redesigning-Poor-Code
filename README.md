@@ -13,7 +13,7 @@ This Library Management System is a Python-based application designed to efficie
 ## Project Structure
 The project consists of the following main components:
 - `main.py`: The entry point of the application, handling user interaction through a CLI.
-- `library.py`: Contains the `Library` class, which manages the overall system.
+- `models.py`: Contains the `Library` class, which manages the overall system.
 - `book.py`: Defines the `Book` class representing individual books.
 - `user.py`: Defines the `User` class representing library users.
 - `storage.py`: Handles data persistence using JSON files.
