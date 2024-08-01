@@ -2,18 +2,11 @@ from models import Library
 
 def main_menu():
     print("\nLibrary Management System")
-    print("1. Add Book")
-    print("2. Update Book")
-    print("3. Delete Book")
-    print("4. List Books")
-    print("5. Add User")
-    print("6. Update User")
-    print("7. Delete User")
-    print("8. List Users")
-    print("9. Checkout Book")
-    print("10. Check-in Book")
-    print("11. List Checkouts")
-    print("12. Exit")
+    print("1. Add Book            5. Add User              9. Checkout Book")
+    print("2. Update Book         6. Update User           10. Check-in Book")
+    print("3. Delete Book         7. Delete User           11. List Checkouts")
+    print("4. List Books          8. List Users            12. Track Book Availability")
+    print("13. Exit")
     choice = input("Enter choice: ")
     return choice
 
@@ -70,6 +63,15 @@ def main():
             elif choice == '11':
                 library.list_checkouts()
             elif choice == '12':
+                print("Tracking Book Availability:")
+                isbn = input("Enter ISBN of the book to track: ")
+                book = library.find_book_by_isbn(isbn)
+                if book:
+                    status = "available" if not book.is_checked_out else f"checked out since {book.checkout_date}"
+                    print(f"Book '{book.title}' is currently {status}.")
+                else:
+                    print(f"No book with ISBN {isbn} found.")
+            elif choice == '13':
                 library.save_data()
                 print("Exiting...")
                 break
@@ -80,4 +82,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
